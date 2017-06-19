@@ -12,6 +12,6 @@ Gem::Specification.new do |spec|
   spec.files      = Dir["README.md", "lib/**/*"]
   spec.test_files = spec.files.grep(/^spec/)
 
-  spec.add_dependency "rails", ">= 3", "< 4.2"
+  spec.add_dependency "rails", ">= 3"
   spec.add_dependency "interactor", "~> 3.0"
 end
